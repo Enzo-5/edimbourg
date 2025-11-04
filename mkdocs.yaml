@@ -1,0 +1,37 @@
+site_name: Documentation CUB Édimbourg
+site_url: https://enzo-5.github.io/edimbourg/
+copyright: Licence CC 4.0 FR BY-NC-SA - 2025 Agence CUB Édimbourg 
+nav:
+  - Accueil: index.md
+  - Documentation:
+    - Introduction: documentation/introduction.md  
+
+theme:
+  name: material
+  logo: ./media/logo.png  
+  favicon: ./media/favicon.png 
+  language: fr
+  features:
+    - navigation.footer
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
