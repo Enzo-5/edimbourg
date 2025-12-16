@@ -1,10 +1,6 @@
 site_name: Documentation CUB Édimbourg
 site_url: https://enzo-5.github.io/edimbourg/
 copyright: Licence CC 4.0 FR BY-NC-SA - 2025 Agence CUB Édimbourg 
-nav:
-  - Accueil: index.md
-  - Documentation:
-    - Introduction: documentation/introduction.md  
 
 theme:
   name: material
@@ -14,6 +10,19 @@ theme:
   features:
     - navigation.footer
     - content.code.copy
+
+nav:
+  - Accueil: index.md
+  - CUB Édimbourg:
+      - Documentations:
+          - Cybersécurité:
+              - Situation n°1 - Cyber: documents/Cybersécurité/Situation n°1 Cyber.md
+          - DNS:
+              - Serveur DNS: documents/DNS/CUB - Serveur DNS.md
+          - Situations:
+              - Situation n°1 - Édimbourg: documents/Situations/Situation n°1.md
+          - Configurations:
+              - Config Switch: documents/Configurations/Config Switch.md
 
 markdown_extensions:
   - admonition
