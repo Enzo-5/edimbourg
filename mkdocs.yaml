@@ -10,9 +10,6 @@ theme:
   features:
     - navigation.footer
     - content.code.copy
-palette:
-    primary: orange 
-    accent: orange
 nav:
   - Accueil: index.md
   - CUB Édimbourg:
@@ -46,4 +43,5 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tabbed:
       alternate_style: true
+
 
