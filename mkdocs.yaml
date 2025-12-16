@@ -1,51 +1,46 @@
 site_name: Documentation CUB Édimbourg
 site_url: https://enzo-5.github.io/edimbourg/
-copyright: Licence CC 4.0 FR BY-NC-SA - 2025 Agence CUB Édimbourg
+copyright: Licence CC 4.0 FR BY-NC-SA - 2025 Agence CUB Édimbourg 
+
 theme:
   name: material
-  logo: media/logoAccueil.png
-  favicon: media/logoAccueil.png
+  logo: ./media/logo.png  
+  favicon: ./media/favicon.png 
   language: fr
   features:
+    - navigation.footer
     - content.code.copy
-  palette:
-    primary: green
-    accent: teal
 
 nav:
   - Accueil: index.md
-
   - CUB Édimbourg:
       - Documentations:
           - Cybersécurité:
-              - Situation n°1 - Cyber: documentations/Cybersécurité/Situation n°1 Cyber.md
-              - Situation n°2 - Cyber: documentations/Cybersécurité/Situation n°2 Cyber.md
-              - Situation n°3 - Cyber: documentations/Cybersécurité/Situation n°3 Cyber.md
-              - Situation n°4 - Cyber: documentations/Cybersécurité/Situation n°4 Cyber.md
-              - Situation n°5 - Cyber: documentations/Cybersécurité/Situation n°5 Cyber.md
-              - Situation n°6 - Cyber: documentations/Cybersécurité/Situation n°6 Cyber.md
+              - Situation n°1 - Cyber: documents/Cybersécurité/Situation n°1 Cyber.md
           - DNS:
-              - DNS0 - Récursif - CUB: documentations/DNS/CUB - Serveur DNS Recursif.md
-              - DNS1 - Récursif - CUB: documentations/DNS/CUB - Serveur DNS1 Recursif.md
-              - NS0 - Autorité - CUB: documentations/DNS/CUB - Serveur DNS Autorité.md
-              - NS1 - Esclave - CUB: documentations/DNS/CUB - Serveur DNS1 esclave.md
+              - Serveur DNS: documents/DNS/CUB - Serveur DNS.md
           - Situations:
-              - Situation n°O - CUB: documentations/Situations/Situation n°0 CUB – Plan d'adressage - Schéma logique & physique - Table de routage - NAT.md
-              - Situation n°1 - CUB: documentations/Situations/Situation n°1 CUB.md
-              - Situation n°2 - CUB: documentations/Situations/Situation n°2 CUB.md
-              - Situation n°3 - CUB: documentations/Situations/Situation n°3 CUB.md
-              - Situation n°4 - CUB: documentations/Situations/Situation n°4 CUB.md
-              - Situation n°5 - CUB: documentations/Situations/Situation n°5 CUB.md
-              - Situation n°6 - CUB: documentations/Situations/Situation n°6 CUB.md
-          - Configs:
-              - Switch 3 - CUB: documentations/Configs/Config Switch 3.md
-              - Switch 2 - CUB: documentations/Configs/Config Switch 2.md
-      
+              - Situation n°1 - Édimbourg: documents/Situations/Situation n°1.md
+          - Configurations:
+              - Config Switch: documents/Configurations/Config Switch.md
+
 markdown_extensions:
-  - toc:
-      permalink: true
-  - tables
   - admonition
-  - codehilite
+  - tables
   - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
