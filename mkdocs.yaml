@@ -13,19 +13,35 @@ theme:
   palette:
     primary: orange
     accent: orange
-    
+
 nav:
   - Accueil: index.md
   - CUB Édimbourg:
       - Documentations:
+          - Introduction: docs/documentation/introduction.md
           - Cybersécurité:
-              - Situation n°1 - Cyber: documents/Cybersécurité/Situation n°1 Cyber.md
+              - Situation n°1 - Cyber: docs/documentation/Cybersécurité/Situation n°1 Cyber.md
+              - Situation n°2 - Cyber: docs/documentation/Cybersécurité/Situation n°2 Cyber.md
+              - Situation n°3 - Cyber: docs/documentation/Cybersécurité/Situation n°3 Cyber.md
+              - Situation n°4 - Cyber: docs/documentation/Cybersécurité/Situation n°4 Cyber.md
+              - Situation n°5 - Cyber: docs/documentation/Cybersécurité/Situation n°5 Cyber.md
+              - Situation n°6 - Cyber: docs/documentation/Cybersécurité/Situation n°6 Cyber.md
           - DNS:
-              - Serveur DNS: documents/DNS/CUB - Serveur DNS.md
+              - DNS Autorité: docs/documentation/DNS/CUB - Serveur DNS Autorité.md
+              - DNS Récursif: docs/documentation/DNS/CUB - Serveur DNS Recursif.md
+              - DNS1 Récursif: docs/documentation/DNS/CUB - Serveur DNS1 Récursif.md
+              - DNS1 Esclave: docs/documentation/DNS/CUB - Serveur DNS1 esclave.md
           - Situations:
-              - Situation n°1 - Édimbourg: documents/Situations/Situation n°1.md
+              - Situation n°0 - Plan: docs/documentation/Situations/Situation n°0 CUB – Plan d'adressage, Schéma logique & physique, Table de routage, NAT.md
+              - Situation n°1 - CUB: docs/documentation/Situations/Situation n°1 CUB.md
+              - Situation n°2 - CUB: docs/documentation/Situations/Situation n°2 CUB.md
+              - Situation n°3 - CUB: docs/documentation/Situations/Situation n°3 CUB.md
+              - Situation n°4 - CUB: docs/documentation/Situations/Situation n°4 CUB.md
+              - Situation n°5 - CUB: docs/documentation/Situations/Situation n°5 CUB.md
+              - Situation n°6 - CUB: docs/documentation/Situations/Situation n°6 CUB.md
           - Configurations:
-              - Config Switch: documents/Configurations/Config Switch.md
+              - Switch 3: docs/documentation/Configurations/Commutateur de configuration 3.md
+              - Switch 2: docs/documentation/Configurations/Config Switch 2.md
 
 markdown_extensions:
   - admonition
@@ -47,6 +63,3 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.tabbed:
       alternate_style: true
-
-
-
