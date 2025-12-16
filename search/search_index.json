@@ -1,0 +1,1 @@
+{"config":{"lang":["fr"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"documentation/introduction/","title":"Introduction \u00e0 l'agence \u00c9dimbourg","text":"<p>Ceci est la page d'introduction de la documentation.</p>"}]}
