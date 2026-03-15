@@ -68,19 +68,19 @@ nav:
         - "Situation n°6 - GPO & PKI": documentation/Situations/Situation_6.md
 
       - Cybersécurité:
-        - "Situation n°1 - Analyse préalable": documentation/Cybersécurité/Cyber_Situation_1.md
-        - "Situation n°2 - Pare-feu Stormshield": documentation/Cybersécurité/Cyber_Situation_2.md
-        - "Situation n°3 - Routage et NAT": documentation/Cybersécurité/Cyber_Situation_3.md
-        - "Situation n°4 - Cryptographie": documentation/Cybersécurité/Cyber_Situation_4.md
-        - "Situation n°5 - Bastion": documentation/Cybersécurité/Cyber_Situation_5.md
-        - "Situation n°6 - Filtrage protocolaire": documentation/Cybersécurité/Cyber_Situation_6.md
-        - "Situation n°7 - SIEM Wazuh": documentation/Cybersécurité/Cyber_Situation_7.md
+        - "Situation n°1 - Analyse préalable": documentation/Cybersecurite/Cyber_Situation_1.md
+        - "Situation n°2 - Pare-feu Stormshield": documentation/Cybersecurite/Cyber_Situation_2.md
+        - "Situation n°3 - Routage et NAT": documentation/Cybersecurite/Cyber_Situation_3.md
+        - "Situation n°4 - Cryptographie": documentation/Cybersecurite/Cyber_Situation_4.md
+        - "Situation n°5 - Bastion": documentation/Cybersecurite/Cyber_Situation_5.md
+        - "Situation n°6 - Filtrage protocolaire": documentation/Cybersecurite/Cyber_Situation_6.md
+        - "Situation n°7 - SIEM Wazuh": documentation/Cybersecurite/Cyber_Situation_7.md
 
       - DNS:
-        - "DNS Récursif": documentation/DNS/CUB - Serveur DNS Recursif.md
-        - "DNS1 Récursif": documentation/DNS/CUB - Serveur DNS1 Récursif.md
-        - "DNS Autorité": documentation/DNS/CUB - Serveur DNS Autorité.md
-        - "DNS1 Esclave": documentation/DNS/CUB - Serveur DNS1 esclave.md
+        - "DNS Récursif": "documentation/DNS/CUB - Serveur DNS Recursif.md"
+        - "DNS1 Récursif": "documentation/DNS/CUB - Serveur DNS1 Récursif.md"
+        - "DNS Autorité": "documentation/DNS/CUB - Serveur DNS Autorité.md"
+        - "DNS1 Esclave": "documentation/DNS/CUB - Serveur DNS1 esclave.md"
 
       - Configurations:
         - "Switch Niveau 2": documentation/Configurations/Situation_Switch_2.md
