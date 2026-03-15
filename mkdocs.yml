@@ -10,14 +10,14 @@ theme:
   favicon: media/logo.png
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Passer en mode sombre
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Passer en mode clair
