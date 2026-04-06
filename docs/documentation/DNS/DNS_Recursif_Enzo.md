@@ -1,4 +1,4 @@
-# Serveur DNS Récursif – Enzo Beuajard
+# Serveur DNS Récursif – Enzo Beaujard
 
 **Auteur :** Enzo Beaujard  
 **Date de création :** 02/10/2025
