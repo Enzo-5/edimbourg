@@ -9,13 +9,9 @@
 
 ## Activité 1 – Mise en place du serveur DNS Récursif au sein de l'entreprise CUB
 
-### Partie 1 – Schéma logique
-
-![Schéma Logique](../../media/SchémaLogique2.png)
-
 ---
 
-### Partie 2 – Installation et paramétrage du serveur DNS Récursif
+### Partie 1 – Installation et paramétrage du serveur DNS Récursif
 
 #### 1 – Vérification préalable
 
@@ -131,7 +127,7 @@ sudo tail -f /var/log/unbound.log
 
 ---
 
-### Partie 3 – Tests du serveur DNS Récursif
+### Partie 2 – Tests du serveur DNS Récursif
 
 Se placer dans le VLAN Administration puis exécuter :
 
