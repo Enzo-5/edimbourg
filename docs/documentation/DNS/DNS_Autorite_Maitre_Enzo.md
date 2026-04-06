@@ -1,6 +1,6 @@
 # Serveur DNS Autorité (Maître) – Enzo Beaujard
 
-**Auteur :** Enzo Beuajard  
+**Auteur :** Enzo Beaujard  
 **Date de création :** 09/10/2025
 
 ---
