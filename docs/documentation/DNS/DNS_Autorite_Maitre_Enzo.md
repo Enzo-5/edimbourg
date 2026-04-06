@@ -9,13 +9,9 @@
 
 ## Activité 1 – Mise en place du serveur DNS faisant Autorité (Maître) au sein de l'entreprise CUB
 
-### Partie 1 – Schéma logique
-
-![Schéma Logique](../../media/a1.png)
-
 ---
 
-### Partie 2 – Installation et paramétrage du serveur DNS Maître
+### Partie 1 – Installation et paramétrage du serveur DNS Maître
 
 #### 1 – Vérification préalable
 
@@ -309,7 +305,7 @@ zone 255.in-addr.arpa/IN: loaded serial 1
 
 ---
 
-### Partie 3 – Tests du serveur DNS Maître
+### Partie 2 – Tests du serveur DNS Maître
 
 #### Test de la résolution DNS
 
