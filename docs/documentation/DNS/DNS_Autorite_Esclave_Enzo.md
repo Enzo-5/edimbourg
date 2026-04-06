@@ -9,13 +9,9 @@
 
 ## Activité 1 – Mise en place du serveur DNS (Esclave) faisant Autorité
 
-### Partie 1 – Schéma logique
-
-![Schéma Logique](../../media/a1.png)
-
 ---
 
-### Partie 2 – Installation et paramétrage du serveur DNS Esclave
+### Partie 1 – Installation et paramétrage du serveur DNS Esclave
 
 #### 1 – Vérification préalable
 
