@@ -6,8 +6,8 @@ site_dir: site
 theme:
   name: material
   language: fr
-  logo: media/logo.png
-  favicon: media/logo.png
+  logo: media/CUB.png
+  favicon: media/CUB.png
   palette:
     - scheme: default
       primary: orange
@@ -77,10 +77,10 @@ nav:
         - "Situation n°7 - SIEM Wazuh": documentation/Cybersecurite/Cyber_Situation_7.md
 
       - DNS:
-        - "DNS Récursif": "documentation/DNS/CUB - Serveur DNS Recursif.md"
-        - "DNS1 Récursif": "documentation/DNS/CUB - Serveur DNS1 Récursif.md"
-        - "DNS Autorité": "documentation/DNS/CUB - Serveur DNS Autorité.md"
-        - "DNS1 Esclave": "documentation/DNS/CUB - Serveur DNS1 esclave.md"
+        - "DNS Récursif - Enzo": documentation/DNS/DNS_Recursif_Enzo.md
+        - "DNS Récursif - Enzo": documentation/DNS/DNS_Recursif_Enzo.md
+        - "DNS Autorité Maître - Enzo": documentation/DNS/DNS_Autorite_Maitre_Enzo.md
+        - "DNS Autorité Esclave - Enzo": documentation/DNS/DNS_Autorite_Esclave_Enzo2.md
 
       - Configurations:
         - "Switch Niveau 2": documentation/Configurations/Situation_Switch_2.md
