@@ -78,7 +78,7 @@ nav:
 
       - DNS:
         - "DNS Récursif - Enzo": documentation/DNS/DNS_Recursif_Enzo.md
-        - "DNS Récursif - Enzo": documentation/DNS/DNS_Recursif_Enzo.md
+        - "DNS Récursif 1 - Enzo": documentation/DNS/DNS_Recursif_Enzo.md
         - "DNS Autorité Maître - Enzo": documentation/DNS/DNS_Autorite_Maitre_Enzo.md
         - "DNS Autorité Esclave - Enzo": documentation/DNS/DNS_Autorite_Esclave_Enzo2.md
 
