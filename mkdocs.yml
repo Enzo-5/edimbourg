@@ -50,7 +50,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/enzo-5
 
-copyright: Licence CC 4.0 FR BY-NC-SA - 2025 Agence CUB Édimbourg
+copyright: Doc Édimbourg - Enzo Beaujard - Licence CC 4.0 FR BY-NC-SA
 
 nav:
   - Accueil: index.md
